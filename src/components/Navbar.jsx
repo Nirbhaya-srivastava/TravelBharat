@@ -47,7 +47,7 @@ export default function Navbar() {
                 </span>
               </div>
               <p className="text-[10px] tracking-wider uppercase font-semibold text-amber-800/80">
-                Digital Tourism Encyclopedia
+                Explore India State by State
               </p>
             </div>
           </Link>
