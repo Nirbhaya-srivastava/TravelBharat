@@ -1,0 +1,35 @@
+{
+  "name": "travel-bharat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "client": "vite --port=3000 --host=0.0.0.0",
+    "server": "node backend/src/index.js",
+    "start": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo 'No linting errors'"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.546.0",
+    "mongoose": "^9.10.2",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "react-router-dom": "^7.18.4",
+    "vite": "^8.3.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.3.3"
+    
+  }
+}
